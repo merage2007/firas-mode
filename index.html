@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>firas mode - Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-['Roboto'] text-gray-800">
+  <header class="bg-gray-100 border-b border-gray-300">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="text-lg font-bold">firas mode</div>
+      <nav class="space-x-4">
+        <a href="index.html" class="text-blue-600 hover:underline font-semibold">Dashboard</a>
+        <a href="help.html" class="text-blue-600 hover:underline font-semibold">Help</a>
+        <a href="//mobile-tracker-free.com/register/" class="text-gray-600 hover:text-blue-600">Register</a>
+        <a href="//mobile-tracker-free.com/login/" class="text-gray-600 hover:text-blue-600">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-4">firas mode - Dashboard</h1>
+
+    <section class="mb-8">
+      <p>By clicking OK or continuing your browsing on this site, you agree to the use of cookies. They allow us to personalise content and ads and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information you’ve provided to them or they’ve collected from your use of their services. <a href="https://mobile-tracker-free.com/cookies-policy/" class="text-blue-600 hover:underline">See details</a></p>
+    </section>
+
+    <section class="mb-8">
+      <div class="flex space-x-4 text-gray-500 text-xl">
+        <a href="//twitter.com/MobileTrackFree" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="//www.youtube.com/channel/UCwZF6eRxSc6L1XWuSa1gDBQ" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+        <a href="//www.facebook.com/MobileTrackerFree" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">The best monitoring solution</h2>
+      <p class="mb-4">A free application with many features</p>
+      <ul class="list-disc list-inside space-y-1 mb-4">
+        <li>Keep an eye on your children</li>
+        <li>Monitor your employees</li>
+        <li>Backup your data</li>
+      </ul>
+      <div class="space-x-4">
+        <button id="refreshDataBtn" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Refresh Data</button>
+        <a href="help.html" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">Install application free</a>
+      </div>
+      <div class="mt-6">
+        <h3 class="text-xl font-semibold mb-2">Latest Tracking Data</h3>
+        <div class="mb-4">
+          <strong>Location:</strong>
+          <p id="locationData" class="ml-4">No location data</p>
+        </div>
+        <div class="mb-4">
+          <strong>Calls:</strong>
+          <ul id="callsList" class="ml-4 list-disc list-inside">No call data</ul>
+        </div>
+        <div class="mb-4">
+          <strong>SMS:</strong>
+          <ul id="smsList" class="ml-4 list-disc list-inside">No SMS data</ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">Why choose Mobile Tracker Free?</h2>
+      <p>Want to get a free and quality monitoring application? Mobile Tracker Free is the best choice for you!</p>
+      <ul class="list-disc list-inside space-y-1 mt-2 mb-4">
+        <li>Many free features</li>
+        <li>Easy installation and use</li>
+        <li><strong>Track WhatsApp and Facebook incoming and outgoing messages without rooting the phone</strong></li>
+        <li>Monitor your children / employees in real time</li>
+        <li>Thousands of satisfied customers</li>
+      </ul>
+      <p>Do not hesitate, download Mobile Tracker Free now.</p>
+      <div class="mt-4">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="Play Icon" class="w-12 h-12" />
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Free solution with <strong>many features</strong></h3>
+      <p>USE ALL THE POWER OF A TRACKING APPLICATION FOR ANDROID SMARTPHONE</p>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      <div class="border p-4 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-semibold mb-2">SMS/MMS</h4>
+        <p>Track SMS/MMS sent and received.</p>
+        <a href="sms-tracker/" class="text-blue-600 hover:underline">Read more</a>
+      </div>
+      <div class="border p-4 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-semibold mb-2">Calls</h4>
+        <p>Track and recording incoming, outgoing and missed calls.</p>
+        <a href="call-tracker/" class="text-blue-600 hover:underline">Read more</a>
+      </div>
+      <div class="border p-4 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-semibold mb-2">GPS Locations</h4>
+        <p>Track locations.<br />Retrieve the location of your children or employees online.</p>
+        <a href="gps-tracker/" class="text-blue-600 hover:underline">Read more</a>
+      </div>
+      <div class="border p-4 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-semibold mb-2">Photos/Images</h4>
+        <p>Track all pictures and images taken and received. Recover even deleted photos and images.</p>
+        <a href="pictures-tracker/" class="text-blue-600 hover:underline">Read more</a>
+      </div>
+      <div class="border p-4 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-semibold mb-2">Social Networks</h4>
+        <p>Track messages received and sent from the most popular social networks.<br />Track WhatsApp, Facebook...</p>
+        <a href="whatsapp-tracker/" class="text-blue-600 hover:underline">Read more</a>
+      </div>
+      <div class="border p-4 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-semibold mb-2">Remote control</h4>
+        <p>Take a phone capture, record the ambient sound, take a photo, etc.</p>
+        <a href="record-audio/" class="text-blue-600 hover:underline">Read more</a>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <a href="features/" class="text-blue-600 hover:underline">And much more ...</a>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">How does Mobile Tracker Free work?</h3>
+      <a href="register/" class="text-blue-600 hover:underline">Create an account</a>
+      <p>Create an account by simply entering your e-mail address and password.</p>
+      <a href="help.html" class="text-blue-600 hover:underline">Installation and Configuration</a>
+      <p>Download and install the application by following the <a href="https://www.youtube.com/watch?v=V0WxmOakqrg" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">explanation video</a>.</p>
+      <a href="login/" class="text-blue-600 hover:underline">Phone tracking</a>
+      <p>Log in and start monitoring the phone.</p>
+      <a href="help.html" class="inline-block mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">Install application free</a>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 border-t border-gray-300 p-4 text-center text-sm text-gray-600">
+    &copy; 2024 firas mode. All rights reserved.
+  </footer>
+<script>
+  async function fetchTrackingData() {
+    try {
+      const response = await fetch('http://localhost:3000/api/tracking-data');
+      const data = await response.json();
+
+      document.getElementById('locationData').textContent = data.location
+        ? `Latitude: ${data.location.latitude}, Longitude: ${data.location.longitude}, Timestamp: ${new Date(data.location.timestamp).toLocaleString()}`
+        : 'No location data';
+
+      const callsList = document.getElementById('callsList');
+      callsList.innerHTML = '';
+      if (data.calls.length > 0) {
+        data.calls.forEach(call => {
+          const li = document.createElement('li');
+          li.textContent = `${call.type} call with ${call.number} at ${new Date(call.timestamp).toLocaleString()}`;
+          callsList.appendChild(li);
+        });
+      } else {
+        callsList.textContent = 'No call data';
+      }
+
+      const smsList = document.getElementById('smsList');
+      smsList.innerHTML = '';
+      if (data.sms.length > 0) {
+        data.sms.forEach(sms => {
+          const li = document.createElement('li');
+          li.textContent = `From: ${sms.sender}, Message: ${sms.message}, Timestamp: ${new Date(sms.timestamp).toLocaleString()}`;
+          smsList.appendChild(li);
+        });
+      } else {
+        smsList.textContent = 'No SMS data';
+      }
+    } catch (error) {
+      console.error('Error fetching tracking data:', error);
+    }
+  }
+
+  document.getElementById('refreshDataBtn').addEventListener('click', fetchTrackingData);
+
+  // Initial fetch
+  fetchTrackingData();
+</script>
+
+</body>
+</html>
